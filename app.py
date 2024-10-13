@@ -3,7 +3,7 @@ import google.generativeai as genai
 from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
-genai.configure(api_key="AIzaSyCgVNswNJr2vIZb9kiwdRgzb5ev33B2Uus")
+genai.configure(api_key="YOUR_API_KEY") #ENTER YOUR API KEY HERE
 
 # Create the model
 generation_config = {
